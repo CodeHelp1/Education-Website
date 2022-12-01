@@ -99,14 +99,13 @@
     /* +++++++++++++++MEDIA QUERIES (TABLET)+++++++++++++++++++++++++ */
     @media screen and (max-width : 600px) {
      .contact__container {
-            grid-template-columns: 1fr;
-            
+            grid-template-columns: 1fr;        
             gap: 3rem;
             margin-top: 0;
             padding: 0;
      }
      .container__form {
-            margin: 0 1.5rem 3rem;          
+            margin: 0 1rem 3rem;          
      }
      .form__name {
             flex-direction: column;
@@ -114,5 +113,24 @@
      .form__name input[type="text"] {
             width: 100%;
      }
+      /* +++++++++++++++MEDIA QUERIES (TABLET)+++++++++++++++++++++++++ */
+    @media screen and (max-width : 350px) {
+       .contact__container {
+              grid-template-columns: 1fr;        
+              gap: 3rem;
+              margin-top: 4;
+              padding: 0;
+       }
+       .container__form {
+              margin: 0 1rem 3rem;          
+       }
+       .form__name {
+              flex-direction: row;
+       }
+       .form__name input[type="text"] {
+              width: 90%;
+       }
+
    }
+  }
 }
