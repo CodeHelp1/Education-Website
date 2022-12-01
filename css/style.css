@@ -518,14 +518,15 @@
       margin-bottom: 1.3rem;
     }
     /* ==================CATEGORIES============================== */
-    .categories__right {
-      grid-template-columns: 1fr 1fr;
+    .categories__right { 
+      grid-template-columns:  1fr;
       gap: 0.7rem;
       
     }
     .category {
       padding: 1rem;
       border-radius: 1rem;
+      text-align: center;
     }
     .category {
       margin-top: 4px;
